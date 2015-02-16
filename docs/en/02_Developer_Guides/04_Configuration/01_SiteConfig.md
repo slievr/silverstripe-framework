@@ -16,7 +16,7 @@ throughout the site. Out of the box this includes selecting the current site the
 	
 	<% with $SiteConfig %>
 		$Title $AnotherField
-	<% end_loop %>
+	<% end_with %>
 
 To access variables in the PHP:
 
